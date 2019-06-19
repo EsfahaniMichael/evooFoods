@@ -1,3 +1,75 @@
-.practiceClass {
-    background-color: yellow;
+
+/* reseting css */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  display: block;
+}
+
+/* Desktop narbar css */
+
+.mainNavWrapper{
+    height: 76px;
+    background: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    min-height: 76px;
+    -webkit-transform: translateZ(0);
+    z-index: 99999;
+}
+.mainNavWrapper > .container {
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+.mainNavWrapper nav {
+    float: right;
+}
+.mainNavWrapper nav li {
+    float: left;
+    margin: 0 7px;
+    height: 56px;
+    line-height: 56px;
+    font-size: 1.4rem;
+}
+
+.mainNavWrapper > .evooLogo{
+    text-indent: -9999px;
+    display: block;
+    width: 90px;
+    height: 56px;
+    float: left;
+    background-size: 100% auto;
+    background: url(/images/evoo_logo_transparent.png) no-repeat;
+}
+
+a {
+    text-decoration: none;
+    color: #e42b26;
+    transition: all .4s ease;
+}
+
+
+
+
+
+
+
+
+
+footer {
+    height: 120vmin;
+    background-color:yellow;
 }
