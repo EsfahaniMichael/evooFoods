@@ -22,13 +22,14 @@ time, mark, audio, video {
 
 /* Desktop narbar css */
 
-.mainNavWrapper{
+/* .mainNavWrapper{
     height: 76px;
     background: rgba(255, 255, 255, 0.9);
     width: 100%;
     min-height: 76px;
     -webkit-transform: translateZ(0);
     z-index: 99999;
+    position: fixed;
 }
 .mainNavWrapper > .container {
     padding: 10px 20px;
@@ -59,7 +60,49 @@ a {
     text-decoration: none;
     color: #e42b26;
     transition: all .4s ease;
-}
+} */
+
+#header {
+    background: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    min-height: 76px;
+    -webkit-transform: translateZ(0);
+    z-index: 99999; }
+    #header .container {
+      padding: 10px 20px;
+      box-sizing: border-box; }
+    #header .logo {
+      background: url(../media/images/logo.svg) no-repeat;
+      text-indent: -9999px;
+      display: block;
+      width: 90px;
+      height: 56px;
+      float: left;
+      background-size: 100% auto; }
+    #header nav {
+      float: right; }
+      #header nav li {
+        float: left;
+        margin: 0 7px;
+        height: 56px;
+        line-height: 56px;
+        font-size: 1.4rem; }
+        #header nav li a {
+          color: #000; }
+          #header nav li a.active, #header nav li a:hover {
+            color: #e42b26; }
+        #header nav li:last-child {
+          margin-right: 0; }
+    #header .hamburger {
+      text-indent: -9999px;
+      background: url(../media/images/hamburger.svg) no-repeat;
+      display: none;
+      width: 22px;
+      height: 16px;
+      position: fixed;
+      right: 14px;
+      top: 34px;
+      z-index: 15; }
 
 
 
