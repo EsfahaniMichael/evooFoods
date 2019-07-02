@@ -1,15 +1,21 @@
 
 
-$(window).load(function () {
-    $("#header").sticky({ topSpacing: 0 });
-  });
 
-$( document ).ready(function() {
-    console.log( "ready!" );
-});
 
-/// Nav Bar functions
 
-var address = window.location.href;
-var page = address.substr(address.lastIndexOf('/') + 1);
-$('.main-nav a[href*="' + page + '"]').addClass('active');
+
+
+
+
+//MOBILE CSS BELOW
+
+// document.addEventListener('DOMContentLoaded', function() {
+//   var elems = document.querySelectorAll('.sidenav');
+//   var instances = M.Sidenav.init(elems, options);
+// });
+
+// // Or with jQuery
+
+// $(document).ready(function(){
+//   $('.sidenav').sidenav();
+// });
