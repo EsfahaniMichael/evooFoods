@@ -46,6 +46,28 @@ nav .brand-logo {
   font-size: 2.8rem;
 }
 
+
+
+/* Home Page */
+
+.sectionContainers{
+  
+  height: 540px;
+}
+#sectionContainer1{
+  background-color: lightblue;
+  background-image: url(../images/Black\ on\ Transparent.png);
+  background-size: 25%;
+  background-repeat: no-repeat;
+
+}
+#sectionContainer2{
+  background-color: lightyellow;
+}
+#sectionContainer3{
+  background-color: lightgray;
+}
+
 /* About Us pages */
 
 /* Image part on about us */
