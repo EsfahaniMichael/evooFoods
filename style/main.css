@@ -51,24 +51,39 @@ nav .brand-logo {
 /* Home Page */
 
 .sectionContainers{
-  
+  background-color: yellow;
   height: 540px;
 }
 #sectionContainer1{
   background-color: lightblue;
   background-image: url(../images/Black\ on\ Transparent.png);
-  background-size: 25%;
+  /* background-size: 25%; */
   background-repeat: no-repeat;
 
 }
 #sectionContainer2{
-  background-color: lightyellow;
+  /* background-color: lightyellow; */
 }
 #sectionContainer3{
-  background-color: lightgray;
+  /* background-color: lightgray; */
 }
 
 /* About Us pages */
+.iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+}
+ 
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+
 
 /* Image part on about us */
 .aboutUsImgContainer{
